@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"
         android:background="#ECA900"
         android:ems="10"
+        android:hint="Masukkan username"
         android:inputType="textPersonName"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,6 +37,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
 
+
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
@@ -43,6 +45,7 @@
         android:layout_marginTop="40dp"
         android:background="#ECA900"
         android:ems="10"
+        android:hint="Masukkan Password"
         android:inputType="textPassword"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,28 +77,5 @@
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="@+id/button"
         app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:text="Username"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.312"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.31"
-        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

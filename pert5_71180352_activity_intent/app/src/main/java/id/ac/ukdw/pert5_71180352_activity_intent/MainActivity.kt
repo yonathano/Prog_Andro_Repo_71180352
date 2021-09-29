@@ -1,4 +1,4 @@
-package id.ac.ukdw.pert4_71180352
+package id.ac.ukdw.pert5_71180352_activity_intent
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,5 +8,4 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-
 }
