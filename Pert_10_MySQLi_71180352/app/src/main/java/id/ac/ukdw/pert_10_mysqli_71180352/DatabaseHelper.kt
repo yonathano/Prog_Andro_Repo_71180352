@@ -13,7 +13,7 @@ class DatabaseHelper(context: Context): SQLiteOpenHelper(context, DATABASE_NAME,
          onUpgrade(db, oldVersion, newVersion)
          }
      companion object {
-         
+
          const val DATABASE_VERSION = 1
          const val DATABASE_NAME = "mydatabase.db"
          }
