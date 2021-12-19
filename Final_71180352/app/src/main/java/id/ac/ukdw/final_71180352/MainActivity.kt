@@ -1,7 +1,10 @@
 package id.ac.ukdw.final_71180352
 
-import androidx.appcompat.app.AppCompatActivity
+import android.R
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -9,3 +12,4 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 }
+
