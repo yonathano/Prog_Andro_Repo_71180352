@@ -15,38 +15,58 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#3F51B5"
-        android:text="DB FILM" />
+        android:textSize="48sp"
+        android:text="DB FILM"/>
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/edtNama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FF9800"
         android:ems="10"
-        android:hint="Nama:"
-        android:inputType="textPersonName" />
+        android:hint="Nama"
+        android:inputType="textPersonName"/>
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edtGenre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FF9800"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Genre:" />
+        android:hint="Genre" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/edtThnRilis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FF9800"
         android:ems="10"
-        android:hint="Tahun Rilis :"
+        android:hint="Tahun Rilis"
         android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnTambah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Tambah" />
+
+    <Button
+        android:id="@+id/btnCari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cari" />
+
+    <Button
+        android:id="@+id/btnUbah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubah" />
+
+    <TextView
+        android:id="@+id/txtKeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="Output" />
 </LinearLayout>
