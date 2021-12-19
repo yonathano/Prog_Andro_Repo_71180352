@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         val btnCari = findViewById<Button>(R.id.btnCari)
         val txtKeluaran = findViewById<TextView>(R.id.txtKeluaran)
         val btnUbah = findViewById<Button>(R.id.btnUbah)
+        val btnHapus = findViewById<Button>(R.id.btnHapus)
 
 
 
@@ -40,7 +41,9 @@ class MainActivity : AppCompatActivity() {
                 .addOnSuccessListener { doc ->
                     txtKeluaran.setText(doc.data.toString())
                 }
-        
         }
+        //btnHapus.setOnClickListener{
+        //    firestore?.collection("film")?.document(edtNama.text.toString()?.drop())
+        //}
     }
 }

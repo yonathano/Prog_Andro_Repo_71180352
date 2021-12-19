@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1076342450019-lubupsesl3vc0u67f1hca13724d8o0rc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.ac.ukdw.final_71180352",
+            "certificate_hash": "61ff7c3a482b32c57ee7f13e564ffb8369f1d61e"
+          }
+        },
+        {
           "client_id": "1076342450019-qcdeang18knepifp7j4v37cpsepqbq6i.apps.googleusercontent.com",
           "client_type": 3
         }

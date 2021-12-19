@@ -15,8 +15,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#3F51B5"
-        android:textSize="48sp"
-        android:text="DB FILM"/>
+        android:fontFamily="monospace"
+        android:text="DB FILM"
+        android:textAlignment="center"
+        android:textSize="48sp" />
 
     <EditText
         android:id="@+id/edtNama"
@@ -62,6 +64,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ubah" />
+
+    <Button
+        android:id="@+id/btnHapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus" />
 
     <TextView
         android:id="@+id/txtKeluaran"
